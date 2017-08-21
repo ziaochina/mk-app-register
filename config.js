@@ -3,7 +3,7 @@ import logo from './img/logo.png'
 
 var _options = {
 	webapi,
-	loginApp:{
+	goLogin:{
 		appName: 'mk-app-login',
 		appParams: {}
 	},

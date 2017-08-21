@@ -41,6 +41,8 @@ class action {
 
         await this.webapi.user.create(form)
         this.metaAction.toast('success', '注册成功')
+
+        this.goLogin()
     }
 
     getLogo = () => this.config.logo
