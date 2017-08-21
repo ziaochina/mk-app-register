@@ -1,0 +1,23 @@
+{
+  "name": "mk-app-register",
+  "version": "1.0.0",
+  "description": "mk-app-register",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/mk-app-register.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziaochina/mk-app-register/issues"
+  },
+  "homepage": "https://github.com/ziaochina/mk-app-register#readme"
+}
