@@ -9,10 +9,13 @@ const mockData = fetch.mockData
 
 function initMockData() {
     if (!mockData.users) {
-        mockData.users = []
+        mockData.users = [{
+            id: 1,
+            mobile: 13334445556,
+            password: '1'
+        }]
     }
 }
-
 
 fetch.mock('/v1/user/create', (option) => {
     initMockData()
